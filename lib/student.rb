@@ -40,7 +40,7 @@ class Student
   end
 
   def self.create(attributes_hash)
-    
+
     name = attributes_hash[:name]
     grade = attributes_hash[:grade]
     student = Student.new(name,grade)
