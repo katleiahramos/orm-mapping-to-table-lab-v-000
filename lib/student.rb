@@ -43,7 +43,8 @@ class Student
     binding.pry
     name = attributes_hash[:name]
     grade = attributes_hash[:grade]
-    student = Student.new()
+    student = Student.new(name,grade)
+    student.save
   end
 
 end
